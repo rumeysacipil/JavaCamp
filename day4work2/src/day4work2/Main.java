@@ -20,15 +20,15 @@ public class Main {
          Customer customer=new Customer();
          customer.setId(1);
          customer.setFirstName("Rumeysa");
-         customer.setLastName("çipil");
-         customer.setNationalityId("27172793660");
+         customer.setLastName("Ã§ipil");
+         customer.setNationalityId("15241452445");
          customer.setDateOfBirth(LocalDate.of(2000, 7, 15));
          customerManager.save(customer);
          
          Customer customer1=new Customer();
          customer1.setId(2);
          customer1.setFirstName("Feyza");
-         customer1.setLastName("barýþ");
+         customer1.setLastName("barÃ½Ã¾");
          customer1.setNationalityId("25149678523");
          customer1.setDateOfBirth(LocalDate.of(2015, 10, 5));
          baseCustomerManager.save(customer1);
